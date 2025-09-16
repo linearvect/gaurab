@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Combo&display=swap');
+
+@import "tailwindcss";
+
+@layer base{
+    :root {
+        --font-bitcount: "Bitcount Prop Single", "sans-serif";
+        --font--combo: "Combo", "sans-serif";
+    }
+    body{
+        font-family: var(--font--combo);
+    }   
+}
+
+@layer utilities {
+    .font-bitcount{
+        font-family: var(--font-bitcount);
+    }
+    .font-combo{
+        font-family: var(--font--combo);
+    }
+}
